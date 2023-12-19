@@ -38,8 +38,8 @@ def choose_driver(driver, my_login, my_password):
         driver.close()
         driver.quit()
 
-    except Exception as e:
-        print(e)
+    except Exception as ex:
+        print(ex)
         driver.close()
         driver.close()
 
